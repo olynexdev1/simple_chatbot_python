@@ -1,0 +1,40 @@
+body{
+    background-color: #212121;
+}
+.heading-text{
+    text-align: center;
+    font-weight: 600;
+    font-size: 36px;
+    color: white;
+}
+
+.chat-box{
+    width: 60%;
+    margin: 0 auto;
+    border: gray;
+    border-radius: 5px;
+    height: 75vh;
+    background-color: rgb(61, 56, 56);
+    padding: 10px;
+    color: white;
+    overflow-y: auto;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+  
+  .input {
+    outline: none;
+    font-size: 0.9em;
+    height: 40px;
+    margin: 0 auto;
+    padding-left: 10px;
+    width: 60%;
+    margin-top: 20px;
+    border-radius: 5px;
+    caret-color: rgb(255, 81, 0);
+  }
